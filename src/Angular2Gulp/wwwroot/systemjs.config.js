@@ -5,7 +5,8 @@
         'app': 'appScripts', // 'dist',
         'rxjs': 'libs/rxjs',
         'angular2-in-memory-web-api': 'libs/angular2-in-memory-web-api',
-        '@angular': 'libs/@angular'
+        '@angular': 'libs/@angular',
+        moment: 'libs/ng2-bootstrap/node_modules/moment/moment.js'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
