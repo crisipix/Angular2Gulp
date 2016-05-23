@@ -27,3 +27,17 @@ his console message should link to docs explaining what enableProdMode is and an
 import {enableProdMode} from "angular2/core";
 
 enableProdMode();
+
+
+Error: SyntaxError: Expected ';'
+I hate this error. it's horrible the last thing that was called isn't correct so that's why it throws it. 
+Error: SyntaxError: Expected ';'
+	Evaluating http://localhost:52788/traceur
+	Error loading http://localhost:52788/traceur
+	Error loading http://localhost:52788/appScripts/appCallService.js as "./appCallService" from http://localhost:52788/appScripts/appCall.js
+
+	
+	EXCEPTION: TypeError: Unable to set property 'endSourceSpan' of undefined or null reference
+	 <button (click)="deletePost()" Delete Post </button>
+	  MISSING > 
+	  <button (click)="deletePost()"> Delete Post </button>
