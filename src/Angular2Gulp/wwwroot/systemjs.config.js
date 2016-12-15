@@ -1,6 +1,8 @@
 ﻿(function (global) {
 
     // map tells the System loader where to look for things
+     //http://martinmicunda.com/2015/10/26/conditional-module-loading-with-systemjs/
+     // setting up environment variables. 
     var map = {
         'app': 'appScripts', // 'dist',
         'rxjs': 'libs/rxjs',
